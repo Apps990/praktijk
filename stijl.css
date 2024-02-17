@@ -1,0 +1,132 @@
+
+
+header { padding: 5px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  font-size: 30px;
+  margin-top: -38px;
+     }
+div.scrollmenu {
+    background-color: rgb(255, 106, 0);
+    
+    margin-top: -30px;
+    margin-bottom: 15px;
+    
+    
+  }
+
+    div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+     }
+    div.scrollmenu a:hover {
+    background-color: #777;
+      }
+      
+     
+    .column {
+      float: left;
+      width: 20%;
+      height: 1226px;
+      background-color: #FAC898;
+      margin-left: -20px;
+      
+      
+      margin:0 auto;
+      
+      
+      
+      width: 100%;
+    }
+            .row:after {
+      content: "";
+      width: 80%;
+    }
+            h5
+      {color: orangered;
+        font-weight: bold;}
+     h2
+     {
+      font-weight: bold;}
+      h4
+      
+      {color: orangered;
+       font-weight: bold;}
+       
+      
+    
+       .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: orangered;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+     }
+       
+
+      
+      /* horizontal menu styles */
+.menu { 
+  display: flex; 
+  flex-direction: row; 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  background-color: rgb(255, 106, 0);
+  color: white;
+        
+} 
+
+.menu-item { 
+  flex: 1; 
+  text-align: center;
+  color: white;
+} 
+
+/* vertical menu styles */
+@media (max-width: 600px) { 
+  .menu { 
+     flex-direction: column; 
+  } 
+  .menu-item { 
+     flex: none; 
+     width: 100%; 
+     margin-top: 8px;
+     margin-bottom: 10px;
+  }
+  .column
+  { 
+    margin-top: -22px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+ 
+ 
+  
+  
+.column1
+{
+  
+  padding-left: 5px;
+  padding-right: 5px;
+
+} 
+ 
+.saxofoon
+{display: flex;
+  justify-content: center;
+
+}
+
+}
+      
+     
